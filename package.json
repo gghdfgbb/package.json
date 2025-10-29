@@ -1,0 +1,19 @@
+{
+  "name": "phistar-naming-server",
+  "version": "1.0.0",
+  "description": "Central identity management with auto-backup",
+  "main": "naming-server-enhanced.js",
+  "scripts": {
+    "start": "node naming-server-enhanced.js",
+    "dev": "nodemon naming-server-enhanced.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "axios": "^1.6.0",
+    "dropbox": "^10.34.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
