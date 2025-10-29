@@ -4,8 +4,8 @@
   "description": "Central identity management with auto-backup",
   "main": "naming-server-enhanced.js",
   "scripts": {
-    "start": "node naming-server-enhanced.js",
-    "dev": "nodemon naming-server-enhanced.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
